@@ -1,0 +1,208 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Hello",
+        "Good day",
+        "hii",
+        "hiii",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "whats up",
+        "sup"
+      ],
+      "responses": [
+        "Hey! How can I help you today?",
+        "Hello! What would you like to know about our college?",
+        "Hi there! Feel free to ask me anything about BGS Institute of Technology.",
+        "Hi! I'm here to help you with information about our college."
+      ]
+    },
+    {
+      "tag": "general_info",
+      "patterns": [
+        "what is BGS Institute of Technology",
+        "tell me about BGSIT",
+        "what is BGSIT",
+        "when was BGSIT established",
+        "tell me about the college",
+        "who manages the college",
+        "who is the chairman",
+        "is the college approved",
+        "is it affiliated to VTU",
+        "tell me about college affiliation"
+      ],
+      "responses": [
+        "BGS Institute of Technology (BGSIT) is an engineering college established in 2005. It is located at Bellur Cross, Karnataka, and is affiliated with VTU and approved by AICTE. The college is managed by Sri Adichunchanagiri Shikshana Trust."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "location",
+        "college location",
+        "what is the location of the college",
+        "college address",
+        "how to reach college",
+        "where is BGSIT"
+      ],
+      "responses": [
+        "BGSIT is located at Bellur Cross, BG Nagar, Karnataka, along NH-75. Our complete address is: BG Nagar, Nagamangala Taluk, Mandya District, Karnataka - 571448"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what courses do you offer",
+        "what are the courses available",
+        "what can I study here",
+        "tell me about the courses",
+        "which branches are available",
+        "what are the branches in B.Tech",
+        "do you offer postgraduate programs",
+        "is PhD available",
+        "tell me about MBA program",
+        "what is the duration of B.Tech"
+      ],
+      "responses": [
+        "We offer the following programs:\n\nB.Tech Programs (4 years):\n- Artificial Intelligence & Machine Learning\n- Computer Science and Engineering\n- Electronics and Communication Engineering\n- Electrical and Electronics Engineering\n- Mechanical Engineering\n- Civil Engineering\n\nPostgraduate Programs:\n- M.Tech programs\n- MBA\n\nWe also offer Ph.D. programs under VTU."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "how to get admission",
+        "admission process",
+        "what is the admission procedure",
+        "how can I join the college",
+        "entrance exam",
+        "what are the eligibility criteria",
+        "how to apply",
+        "which entrance exams are accepted",
+        "is direct admission available",
+        "tell me about management quota",
+        "lateral entry possible",
+        "can diploma holders join"
+      ],
+      "responses": [
+        "Admission Information:\n\n1. B.Tech Admissions:\n- Eligibility: 10+2 with PCM\n- Through KCET/COMEDK counseling\n- Management quota available\n- Lateral entry for diploma holders into 2nd year\n\n2. M.Tech Admissions:\n- Through PGCET/GATE\n\n3. MBA Admissions:\n- Through PGCET/KMAT/MAT\n\nContact our admission office at +91-XXXXXXXXXX for detailed information."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities do you have",
+        "college facilities",
+        "infrastructure",
+        "what are the facilities available",
+        "is there a hostel",
+        "hostel facility",
+        "is wifi available",
+        "tell me about library",
+        "sports facilities",
+        "transportation facility",
+        "medical facilities",
+        "is there a medical center"
+      ],
+      "responses": [
+        "Our campus offers comprehensive facilities including:\n- Separate hostels for boys and girls\n- Well-stocked library with digital access\n- High-speed Wi-Fi campus\n- Modern computer labs\n- Sports facilities (cricket, football, basketball, indoor games)\n- College bus transportation\n- Medical center with first-aid services\n- Cafeteria\n- Well-equipped laboratories"
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "placement details",
+        "which companies visit",
+        "placement opportunities",
+        "highest package",
+        "average salary",
+        "campus recruitment",
+        "internship opportunities",
+        "training and placement",
+        "placement cell"
+      ],
+      "responses": [
+        "Our Training and Placement Cell provides excellent opportunities:\n- Regular visits from companies like Infosys, Wipro, TCS, Capgemini, and Bosch\n- Internship opportunities with top companies\n- Pre-placement training\n- Career guidance\n\nFor specific placement statistics and package details, please contact our placement cell."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "student clubs",
+        "extracurricular activities",
+        "college festivals",
+        "cultural activities",
+        "technical fests",
+        "sports events",
+        "student exchange",
+        "college clubs"
+      ],
+      "responses": [
+        "Student Life at BGSIT includes:\n- Technical clubs (Coding, Robotics)\n- Cultural clubs\n- Annual Technical Fest 'Techno Fest'\n- Cultural festivals\n- Sports competitions\n- Student exchange programs\n- Various technical and non-technical events throughout the year"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how to contact",
+        "contact details",
+        "college phone number",
+        "email address",
+        "office hours",
+        "can I visit campus",
+        "website address",
+        "official website"
+      ],
+      "responses": [
+        "Contact Information:\n- Website: www.bgsit.ac.in\n- Email: info@bgsit.ac.in\n- Phone: +91-XXXXXXXXXX\n- Office Hours: Monday to Saturday, 9 AM to 5 PM\n\nCampus visits can be arranged by contacting the admission office."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "see you",
+        "thanks bye",
+        "thank you goodbye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Feel free to contact us again!",
+        "Thank you for your interest in BGSIT. Goodbye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "helpful",
+        "thanks for the information"
+      ],
+      "responses": [
+        "You're welcome! Let me know if you need any other information.",
+        "Happy to help! Feel free to ask more questions.",
+        "You're welcome! Good luck with your academic journey!"
+      ]
+    },
+    {
+      "tag": "invalid",
+      "patterns": [""],
+      "responses": [
+        "Sorry, I didn't understand that. Could you please rephrase your question?",
+        "I'm not sure I understand. Could you try asking in a different way?",
+        "Could you please be more specific about what you'd like to know?"
+      ]
+    }
+  ]
+}
